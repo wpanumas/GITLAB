@@ -5,13 +5,11 @@ void main()
   float WinAmount[10] = {50000, 10000, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 3000};
   int N = 10;
   int i, won;
-  
-  int YourLotteryNo;
-    i=0;
-    do{
-        i++;
-        printf("Lottery Program");
-    }while(i<5);
+    
+  int YourLotteryNo;  
+  for(i=0;i<5;i++){
+    printf("Hello\n");
+  }
   printf("Enter your Lottery Number (0 to exit): "); 
   scanf("%d", &YourLotteryNo); 
   while (YourLotteryNo != 0) 
